@@ -1,0 +1,45 @@
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  min-height: 100vh;
+}
+.searchhistory-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #3367d6;
+  padding: 15px;
+}
+
+.history-logo {
+  width: 75px;
+  height: 35px;
+}
+
+.searchinput-container {
+  display: flex;
+  background-color: #ececec;
+  color: #64748b;
+  border-color: #f8fafc;
+  border-radius: 5px;
+  padding: 25px;
+}
+
+.search-logo {
+  height: 25px;
+  width: 25px;
+}
+
+.searchinput {
+  font-family: 'Roboto';
+  font-size: 15px;
+  padding: 10px;
+  color: #64748b;
+}
+
+.history-list {
+  background-color: #f8fafc;
+  margin: 25px;
+  border-radius: 8px;
+}

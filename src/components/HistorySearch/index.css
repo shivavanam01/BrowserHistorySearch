@@ -1,0 +1,18 @@
+.list-item {
+  display: flex;
+}
+
+.para {
+  font-size: 10px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+
+.info-container {
+  display: flex;
+}
+
+.image-size {
+  height: 15px;
+  width: 15px;
+}
