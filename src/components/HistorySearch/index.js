@@ -1,8 +1,8 @@
 import './index.css'
 
 const HistorySearch = props => {
-  const {eachlist, deleteclickedlist} = props
-  const {id, timeAccessed, logoUrl, title, domainUrl} = eachlist
+  const {eachlistdetails, deleteclickedlist} = props
+  const {id, timeAccessed, logoUrl, title, domainUrl} = eachlistdetails
 
   const deletelist = () => deleteclickedlist(id)
 
