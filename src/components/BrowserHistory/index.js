@@ -47,13 +47,16 @@ class BrowserHistory extends Component {
               value={inputsearch}
             />
             <ul className="history-list">
-              {searchresults.map(eachlist => (
+              { searchresults.length === 0 ? (
+            <p className="error">There is no history to show</p>
+          ) : (   
+                searchresults.map(eachlist => (
                 <HistorySearch
                   eachlistdetails={eachlist}
                   key={eachlist.id}
                   deleteclickedlist={this.deleteclickedlist}
                 />
-              ))}
+              )))}
             </ul>
           </div>
         </div>
