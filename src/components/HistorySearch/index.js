@@ -17,7 +17,7 @@ const HistorySearch = props => {
         <p className="domian-name">{domainUrl}</p>
       </div>
       <div>
-        <button type="button" onClick={deletelist}>
+        <button type="button" onClick={deletelist} data-testid="delete">
           <img
             src="https://assets.ccbp.in/frontend/react-js/delete-img.png "
             alt="delete"
